@@ -1,0 +1,23 @@
+/* Sidebar.css */
+.sidebar {
+    width: 100px;
+    background-color: #d3adf7;
+    color: white;
+    padding: 20px;
+  }
+  
+  .links {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .links li {
+    margin-bottom: 10px;
+  }
+  
+  .links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  

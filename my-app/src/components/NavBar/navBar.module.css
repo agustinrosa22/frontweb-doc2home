@@ -1,0 +1,31 @@
+/* Navbar.css */
+.navbar {
+    background-color: #a6dcef;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 1.5em;
+  }
+  .img{
+    width: 50px;
+  }
+  .links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .links li {
+    margin-right: 15px;
+  }
+  
+  .links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
