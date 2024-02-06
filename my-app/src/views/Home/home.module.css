@@ -10,3 +10,22 @@
     color: #555;
   }
   
+  .doctorsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .card {
+    width: calc(50% - 10px); /* Ancho de las cards (dos cards por fila) */
+    background-color: #f8f9fa; /* Color de fondo de las cards */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra de las cards */
+  }
+  
+  @media (min-width: 768px) {
+    .card {
+      width: calc(25% - 10px); /* Ancho de las cards (cuatro cards por fila en pantallas grandes) */
+    }
+  }

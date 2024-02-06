@@ -28,4 +28,24 @@
     color: white;
     font-weight: bold;
   }
+
+  .userCard {
+    border: solid 1px white;
+    display: flex;
+    align-items: center;
+    background-color: #a6dcef; /* Color de fondo de la tarjeta del usuario */
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .userImage {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .userInfo {
+    font-size: 14px;
+  }
   

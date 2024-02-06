@@ -21,3 +21,17 @@
     font-weight: bold;
   }
   
+  .butonBack {
+    width: 100%;
+    padding: 10px;
+    background-color: #a6dcef; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .butonBack:hover {
+    background-color: #98d0e4; /* Cambia el color de fondo al pasar el ratón sobre el botón */
+  }

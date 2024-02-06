@@ -1,0 +1,50 @@
+/* Landing.module.css */
+.homeContainer {
+    /* Estilos para el contenedor principal */
+    /* Ajusta según sea necesario */
+  }
+  
+  .languageSelector,
+  .currencySelector,
+  .buttonContainer {
+    margin-top: 20px;
+  }
+  
+  .languageSelector select,
+  .currencySelector select {
+    /* Estilos para los selectores de idioma y moneda */
+    /* Ajusta según sea necesario */
+  }
+  
+  .buttonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .loginButton,
+  .registerButton {
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #007bff; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .loginButton:hover,
+  .registerButton:hover {
+    background-color: #0056b3; /* Cambia el color de fondo al pasar el ratón sobre el botón */
+  }
+  
+  .registerButton {
+    background-color: #28a745; /* Color de fondo del botón de registro */
+  }
+  
+  .registerButton:hover {
+    background-color: #218838; /* Cambia el color de fondo al pasar el ratón sobre el botón de registro */
+  }
+  
