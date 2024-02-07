@@ -1,37 +1,49 @@
-/* Sidebar.css */
+/* Estilos para el sidebar */
+
 .sidebar {
-    width: 100px;
-    background-color: #d3adf7;
-    color: white;
-    padding: 20px;
-  }
-  
-  .links {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .links li {
-    margin-bottom: 10px;
-  }
-  
-  .links a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-  }
-  
-  .butonBack {
-    width: 100%;
-    padding: 10px;
-    background-color: #a6dcef; /* Color de fondo del botón */
-    color: white; /* Color del texto del botón */
-    border: none;
-    border-radius: 0;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .butonBack:hover {
-    background-color: #98d0e4; /* Cambia el color de fondo al pasar el ratón sobre el botón */
-  }
+  width: 180px; /* Ancho del sidebar */
+  height: 100%; /* Altura del sidebar */
+  background-color: #575454; /* Color de fondo del sidebar */
+  color: #fff; /* Color del texto en el sidebar */
+  padding: 20px; /* Añadir espacio interno al sidebar */
+}
+
+/* Estilos para los enlaces del sidebar */
+
+.links {
+  list-style: none; /* Eliminar los puntos de la lista */
+  padding: 0; /* Eliminar el relleno predeterminado */
+}
+
+.links li {
+  margin-bottom: 15px; /* Añadir espacio entre cada elemento de la lista */
+}
+
+.links a {
+  text-decoration: none; /* Eliminar subrayado de los enlaces */
+  color: #fff; /* Color del texto de los enlaces */
+  font-size: 16px; /* Tamaño de fuente de los enlaces */
+  transition: color 0.3s ease; /* Transición suave para el cambio de color */
+}
+
+.links a:hover {
+  color: #ccc; /* Cambiar el color del texto al pasar el cursor por encima */
+}
+
+/* Estilos para el botón "Salir" en el sidebar */
+
+.butonBack {
+  width: 100%; /* Ancho completo del botón */
+  padding: 10px; /* Añadir espacio interno al botón */
+  background-color: #555; /* Color de fondo del botón */
+  border: none; /* Eliminar borde del botón */
+  color: #fff; /* Color del texto del botón */
+  cursor: pointer; /* Cambiar el cursor al pasar por encima del botón */
+  font-size: 16px; /* Tamaño de fuente del botón */
+  margin-top: 20px; /* Añadir espacio superior al botón */
+  transition: background-color 0.3s ease; /* Transición suave para el cambio de color de fondo */
+}
+
+.butonBack:hover {
+  background-color: #777; /* Cambiar el color de fondo al pasar el cursor por encima del botón */
+}

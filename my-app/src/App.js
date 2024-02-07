@@ -4,6 +4,7 @@ import Navbar from './components/NavBar/navBar';
 import Sidebar from './components/SideBar/sideBar';
 import Home from './views/Home/home';
 import Landing from './views/Landing/Landing';
+import Register from './views/Register/register';
 import { Routes,Route, useLocation } from 'react-router-dom';  
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Routes>
             <Route path='/' element={<Landing />} />
             <Route path='/home' element={<Home />} />
+            <Route path='/register' element={<Register />} />
           </Routes>
         </div>
       </div>

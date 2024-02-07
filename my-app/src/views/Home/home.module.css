@@ -1,31 +1,53 @@
-.home-container {
-    padding: 20px;
-  }
-  
-  .home-container h1 {
-    color: #333;
-  }
-  
-  .home-container p {
-    color: #555;
-  }
-  
-  .doctorsContainer {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-  }
-  
-  .card {
-    width: calc(50% - 10px); /* Ancho de las cards (dos cards por fila) */
-    background-color: #f8f9fa; /* Color de fondo de las cards */
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra de las cards */
-  }
-  
-  @media (min-width: 768px) {
-    .card {
-      width: calc(25% - 10px); /* Ancho de las cards (cuatro cards por fila en pantallas grandes) */
-    }
-  }
+/* homeStyles.css */
+
+/* Estilos para el contenedor principal de la página de inicio */
+
+.homeContainer {
+  padding: 20px; /* Añadir espacio interno al contenedor principal */
+  background-color: #2c7592; /* Color de fondo del contenedor principal */
+}
+
+/* Estilos para el título principal de la página de inicio */
+
+.homeContainer h1 {
+  font-size: 36px; /* Tamaño de fuente del título principal */
+  margin-bottom: 20px; /* Añadir espacio inferior al título principal */
+  color: #e0a7e0; /* Color del texto del título principal */
+}
+
+/* Estilos para el contenido de la página de inicio */
+
+.homeContainer p {
+  font-size: 18px; /* Tamaño de fuente del contenido */
+  margin-bottom: 30px; /* Añadir espacio inferior al contenido */
+  color: #e0a7e0; /* Color del texto del contenido */
+}
+
+/* Estilos para el contenedor de tarjetas de doctores */
+
+.doctorsContainer {
+  display: grid; /* Mostrar los elementos en un grid layout */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Definir las columnas del grid */
+  gap: 20px; /* Añadir espacio entre las tarjetas */
+}
+
+/* Estilos para las tarjetas de doctores */
+
+.card {
+  background-color: #fff; /* Color de fondo de las tarjetas */
+  padding: 20px; /* Añadir espacio interno a las tarjetas */
+  border-radius: 10px; /* Añadir bordes redondeados a las tarjetas */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Añadir sombra a las tarjetas */
+}
+
+.card h2 {
+  font-size: 24px; /* Tamaño de fuente para el nombre del doctor */
+  margin-bottom: 10px; /* Añadir espacio inferior al nombre del doctor */
+  color: #333; /* Color del texto del nombre del doctor */
+}
+
+.card p {
+  margin: 0; /* Eliminar el margen predeterminado de los párrafos */
+  font-size: 16px; /* Tamaño de fuente para la información del doctor */
+  color: #666; /* Color del texto de la información del doctor */
+}

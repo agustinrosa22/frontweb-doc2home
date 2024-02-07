@@ -1,51 +1,47 @@
-/* Navbar.css */
-.navbar {
-    background-color: #a6dcef;
-    color: white;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .logo {
-    font-size: 1.5em;
-  }
-  .img{
-    width: 50px;
-  }
-  .links {
-    list-style: none;
-    display: flex;
-  }
-  
-  .links li {
-    margin-right: 15px;
-  }
-  
-  .links a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-  }
+/* navbarStyles.css */
 
-  .userCard {
-    border: solid 1px white;
-    display: flex;
-    align-items: center;
-    background-color: #a6dcef; /* Color de fondo de la tarjeta del usuario */
-    padding: 10px;
-    border-radius: 5px;
-  }
-  
-  .userImage {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    margin-right: 10px;
-  }
-  
-  .userInfo {
-    font-size: 14px;
-  }
-  
+/* Estilos para el navbar */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px; /* Añadir espacio interno al navbar */
+  background-color: #333; /* Color de fondo del navbar */
+  color: #fff; /* Color del texto en el navbar */
+}
+
+/* Estilos para el logo en el navbar */
+
+.logo {
+  flex: 1; /* Ajustar el logo para ocupar el espacio restante */
+}
+
+.logo img {
+  max-width: 100px; /* Ajustar el ancho máximo de la imagen del logo */
+}
+
+/* Estilos para la tarjeta de usuario en el navbar */
+
+.userCard {
+  display: flex; /* Mostrar la tarjeta de usuario como un flex container */
+  align-items: center; /* Centrar los elementos verticalmente */
+}
+
+.userImage {
+  width: 60px; /* Ajustar el ancho de la imagen del usuario */
+  height: 60px; /* Ajustar la altura de la imagen del usuario */
+  border-radius: 50%; /* Establecer el borde redondeado para la imagen del usuario */
+  margin-right: 10px; /* Añadir espacio derecho entre la imagen del usuario y la información */
+}
+
+.userInfo p {
+  margin: 0; /* Eliminar el margen predeterminado */
+  font-size: 16px; /* Tamaño de fuente para la información del usuario */
+}
+
+.userInfo p:last-child {
+  font-size: 14px; /* Tamaño de fuente más pequeño para el saldo del usuario */
+  color: #aaa; /* Color más claro para el saldo del usuario */
+}
+

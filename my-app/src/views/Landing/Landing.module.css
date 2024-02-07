@@ -1,50 +1,104 @@
-/* Landing.module.css */
+/* landingStyles.css */
+
+/* Estilos para el contenedor principal de la landing page */
+
 .homeContainer {
-    /* Estilos para el contenedor principal */
-    /* Ajusta según sea necesario */
-  }
+  position: fixed; /* Fijar el contenedor en una posición absoluta en la ventana */
+  top: 0; /* Establecer la distancia desde la parte superior */
+  right: 0; /* Establecer la distancia desde la parte derecha */
+  bottom: 0; /* Establecer la distancia desde la parte inferior */
+  left: 0; /* Establecer la distancia desde la parte izquierda */
+  padding: 50px; /* Añadir espacio interno al contenedor principal */
+  text-align: center; /* Centrar el contenido */
+  background-color: #22566b; /* Color de fondo más oscuro */
+  color: #fff; /* Color del texto */
+  max-height: 100vh; /* Limitar la altura máxima del contenedor */
+  overflow-y: auto; /* Agregar barras de desplazamiento vertical cuando sea necesario */
   
-  .languageSelector,
-  .currencySelector,
-  .buttonContainer {
-    margin-top: 20px;
-  }
   
-  .languageSelector select,
-  .currencySelector select {
-    /* Estilos para los selectores de idioma y moneda */
-    /* Ajusta según sea necesario */
-  }
-  
-  .buttonContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .loginButton,
-  .registerButton {
-    margin: 0 10px;
-    padding: 10px 20px;
-    background-color: #007bff; /* Color de fondo del botón */
-    color: white; /* Color del texto del botón */
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-  }
-  
-  .loginButton:hover,
-  .registerButton:hover {
-    background-color: #0056b3; /* Cambia el color de fondo al pasar el ratón sobre el botón */
-  }
-  
-  .registerButton {
-    background-color: #28a745; /* Color de fondo del botón de registro */
-  }
-  
-  .registerButton:hover {
-    background-color: #218838; /* Cambia el color de fondo al pasar el ratón sobre el botón de registro */
-  }
-  
+}
+
+/* Estilos para la imagen superior */
+
+.topImage {
+  width: 100%;
+  max-width: 100%; /* Ajustar el ancho máximo de la imagen */
+  height: 300px;
+}
+
+/* Estilos para el título principal de la landing page */
+
+.homeContainer h1 {
+  font-size: 36px; /* Tamaño de fuente del título principal */
+  margin-bottom: 20px; /* Añadir espacio inferior al título principal */
+}
+
+/* Estilos para el contenido de la landing page */
+
+.homeContainer p {
+  font-size: 18px; /* Tamaño de fuente del contenido */
+  margin-bottom: 30px; /* Añadir espacio inferior al contenido */
+}
+
+/* Estilos para los selectores de idioma y moneda */
+
+.languageSelector select,
+.currencySelector select {
+  padding: 10px; /* Añadir espacio interno al selector */
+  font-size: 16px; /* Tamaño de fuente del selector */
+  border: none; /* Eliminar el borde del selector */
+  border-radius: 5px; /* Añadir bordes redondeados al selector */
+  background-color: #444; /* Color de fondo del selector */
+  color: #fff; /* Color del texto del selector */
+  appearance: none; /* Eliminar la apariencia predeterminada del selector */
+  cursor: pointer; /* Cambiar el cursor al pasar por encima del selector */
+  transition: background-color 0.3s, color 0.3s; /* Transición suave para el cambio de color */
+}
+
+/* Estilos para las opciones del selector */
+
+.languageSelector select option,
+.currencySelector select option {
+  background-color: #444; /* Color de fondo de las opciones */
+  color: #fff; /* Color del texto de las opciones */
+}
+
+/* Estilos para los botones desplegables */
+
+.languageSelector,
+.currencySelector {
+  margin-bottom: 20px; /* Añadir espacio inferior a los botones desplegables */
+}
+
+.languageSelector:hover select,
+.currencySelector:hover select {
+  background-color: #fcf9f9; /* Cambiar el color de fondo al pasar el cursor por encima de los botones */
+  color: #2c2b2b; /* Cambiar el color del texto al pasar el cursor por encima */
+}
+
+/* Estilos para los botones de login y registro */
+
+.buttonContainer {
+  display: flex; /* Mostrar los botones en línea */
+  justify-content: center; /* Centrar los botones horizontalmente */
+}
+
+.loginButton,
+.registerButton {
+  display: inline-block; /* Mostrar los botones como elementos en línea */
+  padding: 10px 20px; /* Añadir espacio interno a los botones */
+  margin: 0 10px; /* Añadir espacio entre los botones */
+  text-decoration: none; /* Eliminar subrayado de los botones */
+  color: #fff; /* Color del texto de los botones */
+  background-color: #333; /* Color de fondo de los botones */
+  border: none; /* Eliminar borde de los botones */
+  border-radius: 5px; /* Añadir bordes redondeados a los botones */
+  font-size: 16px; /* Tamaño de fuente de los botones */
+  cursor: pointer; /* Cambiar el cursor al pasar por encima de los botones */
+  transition: background-color 0.3s ease; /* Transición suave para el cambio de color de fondo */
+}
+
+.loginButton:hover,
+.registerButton:hover {
+  background-color: #555; /* Cambiar el color de fondo al pasar el cursor por encima de los botones */
+}
