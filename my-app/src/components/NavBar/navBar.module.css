@@ -7,8 +7,9 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px; /* Añadir espacio interno al navbar */
-  background-color: #333; /* Color de fondo del navbar */
+  background-color: #747583; /* Color de fondo del navbar */
   color: #fff; /* Color del texto en el navbar */
+  font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
 }
 
 /* Estilos para el logo en el navbar */

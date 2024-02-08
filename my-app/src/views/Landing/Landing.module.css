@@ -10,11 +10,11 @@
   left: 0; /* Establecer la distancia desde la parte izquierda */
   padding: 50px; /* Añadir espacio interno al contenedor principal */
   text-align: center; /* Centrar el contenido */
-  background-color: #22566b; /* Color de fondo más oscuro */
-  color: #fff; /* Color del texto */
+  background-color: #424667; /* Color de fondo más oscuro */
+  color: #FBF9FA; /* Color del texto */
   max-height: 100vh; /* Limitar la altura máxima del contenedor */
   overflow-y: auto; /* Agregar barras de desplazamiento vertical cuando sea necesario */
-  
+  font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
   
 }
 

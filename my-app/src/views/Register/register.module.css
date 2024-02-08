@@ -5,8 +5,9 @@
 .registrationContainer {
   padding: 50px; /* Añadir espacio interno al contenedor principal */
   text-align: center; /* Centrar el contenido */
-  background-color: #2c7592; /* Color de fondo del contenedor principal */
-  color: #fff; /* Color del texto del texto */
+  background-color: #7CAEC9; /* Color de fondo del contenedor principal */
+  color: #747583; /* Color del texto del texto */
+  font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
 }
 
 /* Estilos para el contenido del formulario de registro */
@@ -34,7 +35,7 @@
   display: block; /* Mostrar las etiquetas en bloque */
   margin-bottom: 5px; /* Añadir espacio inferior a las etiquetas */
   font-weight: bold; /* Establecer negrita en las etiquetas */
-  color: #fff; /* Color del texto del texto */
+  color: #747583; /* Color del texto del texto */
 }
 
 .formGroup input {
@@ -51,8 +52,8 @@
 .submitButton {
   padding: 10px 20px; /* Añadir espacio interno al botón */
   font-size: 16px; /* Tamaño de fuente del botón */
-  background-color: #333; /* Color de fondo del botón */
-  color: #fff; /* Color del texto del botón */
+  background-color: #424667; /* Color de fondo del botón */
+  color: #FBF9FA; /* Color del texto del botón */
   border: none; /* Eliminar borde del botón */
   border-radius: 5px; /* Añadir bordes redondeados al botón */
   cursor: pointer; /* Cambiar el cursor al pasar por encima del botón */
@@ -61,7 +62,7 @@
 }
 
 .submitButton:hover {
-  background-color: #555; /* Cambiar el color de fondo al pasar el cursor por encima del botón */
+  background-color: #656885; /* Cambiar el color de fondo al pasar el cursor por encima del botón */
 }
 
 /* Estilos para la imagen de registro */

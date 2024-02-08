@@ -3,9 +3,10 @@
 .sidebar {
   width: 180px; /* Ancho del sidebar */
   height: 100%; /* Altura del sidebar */
-  background-color: #575454; /* Color de fondo del sidebar */
-  color: #fff; /* Color del texto en el sidebar */
+  background-color: #424667; /* Color de fondo del sidebar */
+  color: #747583; /* Color del texto en el sidebar */
   padding: 20px; /* Añadir espacio interno al sidebar */
+  font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
 }
 
 /* Estilos para los enlaces del sidebar */
@@ -35,9 +36,10 @@
 .butonBack {
   width: 100%; /* Ancho completo del botón */
   padding: 10px; /* Añadir espacio interno al botón */
-  background-color: #555; /* Color de fondo del botón */
+  background-color: #7CAEC9; /* Color de fondo del botón */
   border: none; /* Eliminar borde del botón */
-  color: #fff; /* Color del texto del botón */
+  border-radius: 5px; /* Añadir bordes redondeados al botón */
+  color: #62636e; /* Color del texto del botón */
   cursor: pointer; /* Cambiar el cursor al pasar por encima del botón */
   font-size: 16px; /* Tamaño de fuente del botón */
   margin-top: 20px; /* Añadir espacio superior al botón */
@@ -45,5 +47,5 @@
 }
 
 .butonBack:hover {
-  background-color: #777; /* Cambiar el color de fondo al pasar el cursor por encima del botón */
+  background-color: #A8D2E6; /* Cambiar el color de fondo al pasar el cursor por encima del botón */
 }
