@@ -25,7 +25,7 @@ const Landing = () => {
 
       <div className={styles.buttonContainer}>
         <Link to="/home" className={styles.loginButton}>Login</Link>
-        <Link to="/register" className={styles.registerButton}>Register</Link>
+        <Link to="/register2" className={styles.registerButton}>Register</Link>
       </div>
     </div>
   );
