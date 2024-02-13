@@ -14,7 +14,7 @@ const Register2 = () => {
   return (
     <div className={styleRegister.authtabs}>
 
-      <div className= {styleRegister.tab_buttons}>
+      <div className={styleRegister.tab_buttons}>
         <a
           href="#login"
           className={activeTab === 'login' ? 'active' : ''}
@@ -23,7 +23,7 @@ const Register2 = () => {
           Ingresar
         </a>
 
-        
+
         <a
           href="#register"
           className={activeTab === 'register' ? 'active' : ''}
@@ -33,9 +33,9 @@ const Register2 = () => {
         </a>
       </div>
 
-      <div className= {styleRegister.tab_content}>
+      <div className={styleRegister.tab_content}>
         {activeTab === 'login' && (
-          <form className= {styleRegister.login_form}>
+          <form className={styleRegister.login_form}>
 
             <label htmlFor="login-username">Usuario:</label>
             <input type="text" id="login-username" placeholder="Username" />
@@ -43,14 +43,14 @@ const Register2 = () => {
             <input type="password" id="login-password" placeholder="Password" />
             <button type="submit">Ingresar</button>
 
-            <div className= {styleRegister.oauth_buttons}>
-            <img src={googleIcon} alt="Google"  onClick={() => console.log('Google login')} />
-            <img src={facebookIcon} alt="Facebook"  onClick={() => console.log('Facebook login')} />
+            <div className={styleRegister.oauth_buttons}>
+              <img src={googleIcon} alt="Google" onClick={() => console.log('Google login')} />
+              <img src={facebookIcon} alt="Facebook" onClick={() => console.log('Facebook login')} />
             </div>
           </form>
         )}
         {activeTab === 'register' && (
-          <form className= {styleRegister.register_form}>
+          <form className={styleRegister.register_form}>
 
             <label htmlFor="register-firstname">Nombre:</label>
             <input type="text" id="register-firstname" placeholder="First Name" />
@@ -61,12 +61,10 @@ const Register2 = () => {
             <label htmlFor="register-referral">Código de referencia:</label>
             <input type="text" id="register-referral" placeholder="Referral Code" />
             <button type="submit">Registrar</button>
-           
-            
 
             <div className={styleRegister.oauth_buttons}>
-            <img src={googleIcon} alt="Google"  onClick={() => console.log('Google login')} />
-            <img src={facebookIcon} alt="Facebook"  onClick={() => console.log('Facebook login')} />
+              <img src={googleIcon} alt="Google" onClick={() => console.log('Google login')} />
+              <img src={facebookIcon} alt="Facebook" onClick={() => console.log('Facebook login')} />
             </div>
           </form>
         )}
