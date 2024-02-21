@@ -56,7 +56,7 @@ const Register2 = () => {
             <input type="text" id="register-firstname" placeholder="First Name" />
             <label htmlFor="register-lastname">Apellido:</label>
             <input type="text" id="register-lastname" placeholder="Last Name" />
-            <label htmlFor="register-phone">Télefono:</label>
+            <label htmlFor="register-phone">Teléfono:</label>
             <input type="text" id="register-phone" placeholder="Phone Number" />
             <label htmlFor="register-referral">Código de referencia:</label>
             <input type="text" id="register-referral" placeholder="Referral Code" />
