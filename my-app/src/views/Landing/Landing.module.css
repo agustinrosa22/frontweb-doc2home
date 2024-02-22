@@ -1,50 +1,102 @@
-/* Landing.module.css */
+.pageContainer {
+  display: flex;
+  justify-content: center;
+  background-color: #EAF6FF; /* Celeste */
+  height: 100vh;
+}
+
 .homeContainer {
-    /* Estilos para el contenedor principal */
-    /* Ajusta según sea necesario */
+  text-align: center;
+  padding: 20px;
+}
+.card {
+  margin-top: -3%;
+  border-radius: 10px;
+  background-color: #EAF6FF; /* Celeste */
+  padding: 20px;
+}
+
+.card h1 {
+  color: #004E92; /* Azul */
+  margin-bottom: 20px;
+}
+.img{
+  margin-top: -5%;
+  width: 40%;
+}
+.homeContainer h1 {
+  color: #004E92; /* Azul */
+}
+
+.homeContainer p {
+  color: #005691; /* Azul */
+}
+
+.compactParagraph {
+  margin: 0 auto;
+  max-width: 35%; /* Ajusta el ancho máximo según sea necesario */
+}
+
+.selectorsContainer {
+  margin-top: 2%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.languageSelector,
+.currencySelector {
+  margin-right: 20px;
+}
+
+.languageSelector select,
+.currencySelector select {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #B3D4FC; /* Celeste */
+  background-color: #FFFFFF; /* Blanco */
+  color: #005691; /* Azul */
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.loginButton,
+.registerButton {
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #FFFFFF; /* Blanco */
+  background-color: #005691; /* Azul */
+  margin: 0 10px;
+}
+
+.registerButton {
+  background-color: #0096D6; /* Azul claro */
+}
+
+@media (max-width: 768px) {
+  .card {
+    margin-top: -12%;
+    border-radius: 10px;
+    background-color: #EAF6FF; /* Celeste */
+    padding: 5px;
   }
-  
-  .languageSelector,
-  .currencySelector,
-  .buttonContainer {
-    margin-top: 20px;
+
+  .img{
+    margin-top: -9%;
+    width: 90%;
   }
-  
-  .languageSelector select,
-  .currencySelector select {
-    /* Estilos para los selectores de idioma y moneda */
-    /* Ajusta según sea necesario */
+
+  .homeContainer h1 {
+    color: #004E92; /* Azul */
+    font-size: 25px;
   }
-  
-  .buttonContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+  .compactParagraph {
+    margin: 0 auto;
+    max-width: 100%; /* Ajusta el ancho máximo según sea necesario */
   }
-  
-  .loginButton,
-  .registerButton {
-    margin: 0 10px;
-    padding: 10px 20px;
-    background-color: #007bff; /* Color de fondo del botón */
-    color: white; /* Color del texto del botón */
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-  }
-  
-  .loginButton:hover,
-  .registerButton:hover {
-    background-color: #0056b3; /* Cambia el color de fondo al pasar el ratón sobre el botón */
-  }
-  
-  .registerButton {
-    background-color: #28a745; /* Color de fondo del botón de registro */
-  }
-  
-  .registerButton:hover {
-    background-color: #218838; /* Cambia el color de fondo al pasar el ratón sobre el botón de registro */
-  }
-  
+}
