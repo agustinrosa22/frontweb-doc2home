@@ -1,3 +1,4 @@
+
 .pageContainer {
   display: flex;
   justify-content: center;
@@ -58,13 +59,21 @@
   color: #005691; /* Azul */
 }
 
+
+
+
+
+/* Estilos para los botones de login y registro */
+
 .buttonContainer {
-  display: flex;
-  justify-content: center;
+  display: flex; /* Mostrar los botones en línea */
+  justify-content: center; /* Centrar los botones horizontalmente */
+
 }
 
 .loginButton,
 .registerButton {
+
   padding: 10px 20px;
   border-radius: 5px;
   text-decoration: none;
@@ -100,3 +109,4 @@
     max-width: 100%; /* Ajusta el ancho máximo según sea necesario */
   }
 }
+

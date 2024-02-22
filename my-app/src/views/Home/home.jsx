@@ -23,7 +23,7 @@ const Home = () => {
           <div key={doctor.id} className={styles.card}>
             <h2>{doctor.firstName} {doctor.lastName}</h2>
             <p>Especialidad: {doctor.specialty}</p>
-            <p>Presio por Consulta: {doctor.price}</p>
+            <p>Precio por Consulta: {doctor.price}</p>
           </div>
         ))}
       </div>

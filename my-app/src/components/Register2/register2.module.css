@@ -1,0 +1,94 @@
+/* AuthTabs.css */
+
+/* Estilos para el componente de pestañas de autenticación */
+
+.authtabs {
+  width: 100%; /* Ancho del componente */
+  font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+  font-weight: bold; /* Establecer negrita en las etiquetas */
+  background-image: url('C:\Users\julit\Documents\WEB-doc2home\frontweb-doc2home\my-app\src\assets\fondoForm.jpg');
+  background-size: cover;
+}
+
+.tab_buttons {
+  display: flex; /* Mostrar los botones en línea */
+  margin-left: 14%;
+  margin-bottom: 8px; /* Espacio entre los links y el contenido */
+}
+
+.tab_buttons a {
+  text-decoration: none; /* Quitamos el subrayado de los enlaces */
+  color: #747583; /* Color del texto de los enlaces */
+  font-weight: bold; /* Negrita para los enlaces */
+  font-size: 30px;
+  padding: 10px 20px; /* Espaciado para los enlaces */
+}
+
+.tab_buttons a.active {
+  color: #007bff; /* Color azul para el enlace activo */
+}
+
+.tab_content {
+  padding: 20px; /* Espacio interno del contenido */
+  border: 1px solid #ddd; /* Borde del contenido */
+  border-top: none; /* Quitamos el borde superior */
+  margin-left: 8%;
+}
+
+.login_form,
+.register_form {
+  display: flex; /* Mostrar los elementos en columna */
+  flex-direction: column; /* Orientación de columna */
+}
+
+.login_form label,
+.register_form label {
+  margin-bottom: 5px; /* Espacio inferior entre etiqueta y campo de entrada */
+  font-size: 20px; /* Tamaño de fuente */
+  color: #424667;
+}
+
+.login_form input,
+.register_form input {
+  width: 40%;
+  margin-bottom: 10px; /* Espacio inferior entre campos de entrada */
+  padding: 5px; /* Espacio interno del campo de entrada */
+  font-size: 16px; /* Tamaño de fuente */
+  border-radius: 6px;
+  border: none; /* Borde del input */
+  background-color: #eef5f4;
+  
+}
+
+.login_form button,
+.register_form button {
+  margin-top: 10px; /* Espacio superior entre los botones y el contenido */
+  width: 15%;
+  background-color: #007bff; /* Color de fondo del botón */
+  color: #fff; /* Color del texto del botón */
+  border: none; /* Quitamos el borde */
+  border-radius: 5px; /* Radio de borde */
+  padding: 5px 20px; /* Espacio interno del botón */
+  font-size: 16px; /* Tamaño de fuente */
+  cursor: pointer; /* Cambiamos el cursor a puntero */
+}
+
+.login_form button:hover,
+.register_form button:hover {
+  background-color: #0056b3; /* Color de fondo del botón al pasar el ratón */
+}
+
+.oauth_buttons {
+  margin-top: 12px; /* Espacio superior entre los botones de autenticación social y el contenido */
+  display: flex;
+  justify-content: left; /* Alinea los botones horizontalmente */
+}
+
+.oauth-buttons img {
+  width: 5px; /* Tamaño de la imagen */
+  height: auto; /* Altura automática para mantener la proporción */
+  margin-right: 10px; /* Espacio entre las imágenes */
+  cursor: pointer; /* Cambia el cursor a puntero */
+}
+
+
